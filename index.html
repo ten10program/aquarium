@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>星駆水族館</title>
+    <meta name="description" content="星駆水族館のホームページです" />
+    <link rel="icon" href="img/favicon.png" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script src="./js/script.js"></script>
+
+
+  </head>
+
+  <body>
+    <!---------------------------------------------------- 
+      header
+     ---------------------------------------------------->
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <p class="header-title">星駆水族館</p>
+          <p class="header-subtitle">Hoshikake Aquarium</p>
+
+        </div>
+        <div class="header-right">
+          <ul class="header-nav clear">
+            <li class="header-nav-item">
+              <a href="#program">プログラム</a>
+            <li class="header-nav-item">
+              <a href="#areaguide">エリアガイド</a>
+            <li class="header-nav-item">
+              <a href="#food">フード</a>
+            <li class="header-nav-item">
+              <a href="#time-fee">営業時間・料金</a>
+            <li class="header-nav-item">
+              <a href="#access">アクセス</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hamburger-menu">
+        <input type="checkbox" id="menu-btn-check">
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+
+        <div class="menu-content" id="menu-content">
+          <ul>
+              <li>
+                  <a href="#program">プログラム</a>
+              </li>
+              <li>
+                  <a href="#areaguide">エリアガイド</a>
+              </li>
+              <li>
+                  <a href="#food">フード</a>
+              </li>
+              <li>
+                  <a href="#time-fee">営業時間・料金</a>
+              </li>
+              <li>
+                  <a href="#access">アクセス</a>
+              </li>
+          </ul>
+      </div>
+    </div>
+
+    <script>
+      $(function() {
+        $('#menu-content ul li a').on('click', function(event) {
+          $('#menu-btn-check').prop('checked', false);
+        });
+      });
+      </script>
+
+    
+
+
+    </header>
+    <!------------------------------------------------- 
+      top
+     -------------------------------------------------->
+    <section class="top">
+      <div class="container">
+        <div class="top-title-wrapper">
+          <p class="top-title">
+            忘れられない感動を経験しよう！<br>
+            みんなで最高の思い出を作ろう！</p>
+
+        </div>
+
+      </div>
+      
+     
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="top-icon-wrapper">
+          <div class="top-icon">
+            <img src="./img/icon_dolphin.jpg" alt="イルカのアイコン">
+            <h2>イルカショー</h2>
+            <p>イルカショーではバンドウイルカたちの見事なコンビネーション・パフォーマンスに歓声がわき起こります．</p>
+          </div>
+          <div class="top-icon">
+            <img src="./img/icon_jellyfish.jpg" alt="クラゲのアイコン">
+            <h2>クラゲの街</h2>
+            <p>まるで海の銀河の中を浮遊しているかのような体感です．神秘的な街に住むクラゲたちをお楽しみください．</p>
+          </div>
+          <div class="top-icon">
+            <img src="./img/icon_night-tour.jpg" alt="ナイトツアーのアイコン">
+            <h2>ナイトツアー</h2>
+            <p>昼間とはまた違った海の生き物の生態を見に行きませんか？滅多に味わえない「夜」の水族館を楽しみましょう．</p>
+          </div>
+        </div>     
+      </div>
+
+    </section>
+
+
+
+    <!-- ----------------------------------------------
+      program
+    ------------------------------------------------ -->
+    <section class="program section" id="program">
+      <div class="container">
+        <h1 class="section-title">プログラム</h1>
+        <div class="program-wrapper">
+         <div class="dolphin-show program-box clear">
+           <div class="donphin-detail detail">
+             <h2>イルカショー</h2>
+             <h3>日本最大級のプールで繰り出されるイルカたちのパフォーマンス</h3>
+             <hr>
+             <p>プールの巨大さを活かし深く十分な助走をとった連続ジャンプは迫力満点です．ジャンプに向かう前の力強い泳ぎや，仲間同士で息を合わせて水面から飛び出す様子は，イルカたちの高い知能と運動能力を感じることができます．「プールが広すぎて、イルカがどこから飛び出してくるかわからない！」そんなジャンプを見逃してしまった方も大丈夫です．スタジアム正面の大型映像では,水上3台，水中1台のカメラがイルカたちの動きを追い，リアルタイムはもちろん，リプレイ映像で一瞬たりとも見逃さずご覧いただくことができます．３階スタジアムスタンド席の真下にある「水中観覧席」で，ジャンプに向かうイルカたちの疾走感を目の当たりにできます．まるでイルカたちと同じ海の中にいるような体験ができるのは，星駆水族館ならでは．
+               <br><br>
+
+              11時〜　13時〜　15時〜　所要時間20分</p>
+           </div>
+           <img src="./img/dolphin-show.jpg" alt="イルカショーの様子" class="program-img">
+           <div class="dolphin-review review">
+             <img src="./img/icon_review1.jpg" alt="レビューのアイコン1" class="review-icon">
+             <h2>A.K.さん</h2>
+             <div class="dolphin-review-comment">
+               <p>イルカの迫力がすごくて，息もぴったりで，素晴らしかったです．<br>
+                今度来たときは絶対また見たいです．</p>
+             </div>
+           </div>
+         </div>
+         <div class="jellyfish-town program-box clear">
+           <div class="jellyfish-detail detail">
+             <h2>クラゲの街</h2>
+             <h3>海月銀河に息づく個性豊かなクラゲたちが集まる小さな街</h3>
+             <hr>
+             <p>まるで宇宙を漂っているかのようなクラゲたちの姿が浮かび上がる漆黒の空間．ふわふわと舞い泳ぐクラゲの間を通り抜ける度，ふしぎな浮遊感をもたらします．
+              暗闇の中で引き立つのは，クラゲの透明感．クラゲの模様や容貌を照らし出す一筋の光と，クラゲの透き通るような繊細な美しさが合わさり，見る人を魅了します．
+              天井から届くのは銀河を象ったやわらかな光．点いたり消えたり，ちらちらときらめくそれらがクラゲの命の拍動を表現し，幻想的な海月銀河の世界へ誘います．
+               </p>
+              </div>
+              <img src="./img/jellyfish-town.jpg" alt="クラゲの街の様子" class="program-img">
+           <div class="jellyfish-review review">
+             <img src="./img/icon_review2.jpg" alt="レビューのアイコン2" class="review-icon">
+             <h2>D.H.さん</h2>
+             <div class="jellyfish-review-comment">
+               <p>クラゲがすごく綺麗で，時間を忘れてしまいました．<br>
+                まるで別世界に来たかのようです．</p>
+             </div>
+           </div>
+         </div>
+         <div class="night-tour program-box clear">
+           <div class="tour-detail detail">
+             <h2>ナイトツアー</h2>
+             <h3>夜だからこそ見ることができる，海の生き物の不思議いっぱい</h3>
+             <hr>
+             <p>ナイトツアー「ほしかけ夜の探検隊」は，星駆水族館の大人気プログラムです．
+              閉館後（夜）の水槽内やプールにいる生き物たちのようすをじっくり観察しながら，ほしかけクイズ，ほしかけスタンプラリーなど，楽しく学べるプログラムが充実．まるで海の中で朝まで過ごせるような素晴らしい体験をお約束します．
+</p>
+           </div>
+           <img src="./img/icon_night-tour.jpg" alt="ナイトツアーの様子" class="program-img">
+           <div class="tour-review review">
+             <img src="./img/icon_review3.jpg" alt="レビューのアイコン3" class="review-icon">
+             <h2>T.M.くん</h2>
+             <div class="tour-review-comment">
+               <p>夜の水族館はドキドキワクワクがいっぱいで楽しかったです！</p>
+             </div>
+           </div>
+         </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ----------------------------------------------
+      areaguide
+    ------------------------------------------------ -->
+    <section class="areaguide section" id="areaguide">
+      <div class="container">
+        <h1 class="section-title">エリアガイド・マップ</h1>
+        <div class="map">
+          <img src="./img/map.png" alt="マップ">
+        </div>
+        <div class="map-iphone">
+          <img src="./img/map-iphone.png" alt="マップ">
+        </div>
+      </div>
+      <div class="map-wrapper">
+
+        <div class="map-item">
+          <img src="./img/icon_jellyfish.jpg" alt="クラゲの街">
+          <h2>クラゲの街</h2>
+        </div>
+        
+        <div class="map-item">
+          <img src="./img/icon_night-tour.jpg" alt="レスラン">
+          <h2>珊瑚礁の地</h2>
+        </div>
+
+        <div class="map-item">
+          <img src="./img/icon_dolphin.jpg" alt="レストラン">
+          <h2>イルカショー</h2>
+          </div>
+        
+        <div class="map-item">
+          <img src="./img/jelato.jpg" alt="レストラン">
+          <h2>ジェラート 4℃</h2>
+          </div>
+        
+          <div class="map-item">
+            <img src="./img/cafe.jpg" alt="レストラン">
+            <h2>カフェ Sango</h2>
+          </div>
+
+          <div class="map-item clear">
+            <img src="./img/restaurant.jpg" alt="レストラン">
+            <h2>レストラン 星駆</h2>
+          </div>
+          
+        </div>
+     
+    </section>
+
+    <!-- ----------------------------------------------
+      food
+    ------------------------------------------------ -->
+    <section class="food section" id="food"> 
+      <div class="container">
+        <h1 class="section-title">お食事・デザート</h1>
+        <div class="food-wrapper">
+          <div class="food-item">
+            <img src="./img/restaurant.jpg" alt="レストラン">
+            <h2>レストラン 星駆</h2>
+            <p>独創的で，風味豊かな料理が自慢です．芸術的なガストロノミーの源に傾倒するこのレストランで普通の美食体験を超えるひと時をお楽しみ下さい．</p>
+          </div>
+          <div class="food-item">
+            <img src="./img/cafe.jpg" alt="カフェ">
+            <h2>カフェ Sango</h2>
+            <p>店内は開放的な大きな窓があり，晴れた日はテラスでゆっくりとできるカフェ．カナダ産のメープルシロップの甘い香りがして落ち着きのある空間です．</p>
+          </div>
+          <div class="food-item">
+            <img src="./img/jelato.jpg" alt="ジェラート">
+            <h2>ジェラート 4℃</h2>
+            <p>約30種類のフレーバーの中から，定番のものから星駆水族館オリジナルの特徴的なものまで，幅広く揃えています．口溶けの良い一口をお楽しみ下さい．</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+       <!-- ----------------------------------------------
+        time-fee
+        ------------------------------------------------ -->
+        <section class="time-fee section" id="time-fee">
+          <div class="container">
+            <h1 class="section-title">営業時間のご案内</h1>
+
+            <table class="time-table">
+              <colgroup span="1" class="groupA"></colgroup>
+              <tr>
+                <th colspan="2" class="cell_day">通常営業</th>
+              </tr>
+              <tr>
+                <td>年中</td>
+                <td>10：00〜17：00 <br>
+                  （最終入場16：30）</td>
+                </tr>
+              </table>
+              <table class="time-table">
+                <colgroup span="1" class="groupA"></colgroup>
+                <tr>
+                  <th colspan="2" class="cell_night">ナイトツアー</th>
+                </tr>
+                <tr>
+                  <td>4月〜10月</td><td>19：30〜21：00</td>
+                </tr>
+                <tr>
+                  <td>11月〜3月</td><td>18：30〜20：00</td>
+                </tr>
+              </table>
+            </div>
+            <div class="container">
+              <h1 class="section-title">料金のご案内</h1>
+  
+              <table class="fee-table">
+                <colgroup span="1" class="groupA"></colgroup>
+                <tr>
+                  <th></th><th class="cell_adult">大人</th><th class="cell_child">子供</th>
+                </tr>
+                <tr>
+                  <td class="cell_day">通常営業</td><td>2400円</td><td>1200円</td>
+                </tr>
+                <tr>
+                  <td class="cell_night">ナイトツアー</td><td>2000円</td><td>1000円</td>
+                </tr>
+              </table>
+              <h3 class="ticket-explain">
+                休館日：火曜日<br><br>
+              </h3>
+              <h3 class="ticket-explain sale">
+                
+                夏休み期間限定！(7/1〜8/31)
+                <br>小学生はナイトツアー半額500円
+              </h3>
+              <div class="button">
+                <button>WEBで予約</button>
+              </div>
+            </div>
+        </section>
+
+        
+        
+       <!-- ----------------------------------------------
+      access
+    ------------------------------------------------ -->
+    <section class="access section" id="access">
+      
+      <div class="container">
+        <h1 class="section-title">アクセス</h1>
+        <div class="means">
+          <h2>・・・お車でお越しの場合・・・</h2>
+          <h3> 北陸高速道路「星駆」ICより約15分</h3>
+          <p>※土・日・祝日や観光シーズンは、周辺道路や駐車場の混雑が予想されます。</p>
+          
+        </div>
+        <div class="means">
+          <h2>・・・電車でお越しの場合・・・</h2>
+          <h3>あらわ線「星駆」駅徒歩5分</h3>
+          <p>JR北陸本線「牛の谷」駅下車，乗りかえ，あらわ線「星駆」行き、終点「星駆」駅下車 （2番出口）徒歩5分</p>
+          
+        </div>
+        
+        <div class="gmap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6432.632216510479!2d136.23838236667643!3d36.280379158656885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDE2JzQzLjAiTiAxMzbCsDE0JzI5LjAiRQ!5e0!3m2!1sja!2sjp!4v1624824593550!5m2!1sja!2sjp" width="100％" height="667" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="address-wrapper">
+          <div class="address-title">
+            <h2 class="header-title logo-title">星駆水族館</h2>
+            <p class="header-subtitle">Hoshikake Aquarium</p>
+
+          </div>
+          <div class="address">
+            <h3>〒910-XXXX</h3>
+            <h3>福井県あらわ市星駆XXX番地XXX号</h3>
+            <h3>TEL：0776-XX-XXXX(代表) / FAX：0776-XX-XXXX</h3>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </section>
+      <!-- ----------------------------------------------
+        footer
+        ------------------------------------------------ -->
+        <footer>
+     <div class="container footer">
+       <div class="footer-wrapper">
+         <p>個人情報の取り扱いについて</p>
+         <p>会社情報</p>
+         <p>採用情報</p>
+         <p>お問い合わせ</p>
+
+       </div>
+       <p class=>© Hoshikake Web Production  All rights reserved.</p>
+     </div>
+
+   </footer>
+
+
+
+
+  
+  </body>
+</html>
